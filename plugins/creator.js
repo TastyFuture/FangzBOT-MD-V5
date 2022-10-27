@@ -21,26 +21,25 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-*💌 Nama* : Fangz
-*✉️ Nama RL* : FangzBOT
+*💌 Nama* : Syakata
+*✉️ Nama RL* : Yugo~
 *♂️ Gender* : Laki - laki
 *🕋 Agama* : Islam
-*⏰ Tanggal lahir* : 25 oktober 2007
-*🎨 Umur* : 15
-*🧮 Kelas* : 9
-*🧩 Hobby* : Nonton henta*, main game, Recode script
-*💬 Sifat* : Baik, hode, softboy, tydack ramah, g*y
-*🗺️ Tinggal* : Indonesia, jawa, bogor
-*❤️ Suka* : warnah pink & hitam, trap, waifu wangy, kucing
-*💔 Benci* : anak alay, autis, anak epep, sok asik
+*⏰ Tanggal lahir* : 09 September 2004
+*🎨 Umur* : 18
+*🧩 Hobby* : Baca novel, Main game, Recode script
+*💬 Sifat* : Baik, hode (kadang), softboy, tydack ramah, no g*y
+*🗺️ Tinggal* : Indonesia, Jakarta
+*❤️ Suka* : Kucing
+*💔 Benci* : anak alay, autis, sok asik
 
-*- - sᴋɪʟʟs: - -* 
-> JavaScript [70.7%]
+*- - coding sᴋɪʟʟs: - -* 
+> JavaScript [65.7%]
 > Python [11.4%]
 > CSS [4.1%]
-> Html [0.9%]
-> Recode [76.8%]
-> Create Webs [88.9%]
+> Html [70.9%]
+> Recode [86.5%]
+> Create Webs [50.3%]
 
 ───────[ SOSIAL MEDIA ]───────
 
@@ -48,8 +47,7 @@ let teksbio = `${htki} *BIODATA* ${htka}
 🐈 *Github:* ${sgh}
 🥏 *Whatsapp* wa.me/${nomorown}
 🌐 *Discord:* Soon
-🌏 *Website:* https://fangzbot.websites.co.in/
-🎶 *Tiktok:* tiktok.com/@fangzjb
+🌏 *Website:* Soon
 
 `
   let teks = ' '
@@ -59,7 +57,6 @@ const sections = [
 	rows: [
 	    {title: "📱 • Nomor", rowId: ".owner nomor"},
 	{title: "🎨 • Biodata", rowId: ".owner bio"},
-	{title: "🌐 • Website", rowId: ".website"},
 	{title: "🌎 • Script", rowId: ".sc"},
 	{title: "🏮 • Youtube", rowId: ".fyt"},
 	]
