@@ -12,10 +12,10 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 
 📮 *Note:*
 • Owner tidak menerima save contact
-• Owner berhak blockir tanpa alasan
+• Owner berhak blokir tanpa alasan
 • Berbicaralah yang sopan & tidak spam
 • Owner Hanya merespon yang berkaitan dengan BOT
-• No Telp
+• Jangan Telp!
 • Chat gajelas = Block`
 
 //------------ BIO
@@ -28,10 +28,10 @@ let teksbio = `${htki} *BIODATA* ${htka}
 *⏰ Tanggal lahir* : 09 September 2004
 *🎨 Umur* : 18
 *🧩 Hobby* : Baca novel, Main game, Recode script
-*💬 Sifat* : Baik, hode (kadang), softboy, tydack ramah, no g*y
+*💬 Sifat* : Baik, Softboy, Ramah
 *🗺️ Tinggal* : Indonesia, Jakarta
 *❤️ Suka* : Kucing
-*💔 Benci* : anak alay, autis, sok asik
+*💔 Benci* : LGBT
 
 *- - coding sᴋɪʟʟs: - -* 
 > JavaScript [65.7%]
